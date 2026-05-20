@@ -43,3 +43,11 @@ It includes:
 - Azure Container Registry for image storage
 - Terraform-managed infrastructure with reusable inputs
 - Namespace, ConfigMap and Secret support for environment configuration
+- Application Insights telemetry and Azure monitoring alerts
+- Azure SQL and Key Vault integration
+- Azure network security and subnet isolation
+- Remote Terraform state backend support
+
+## Infra documentation
+
+See `infrastructure/azure/README.md` for full Terraform deployment instructions, backend guidance, and resource details.

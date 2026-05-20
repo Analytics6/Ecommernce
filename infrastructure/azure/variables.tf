@@ -57,3 +57,35 @@ variable "vm_size" {
   type        = string
   default     = "Standard_D4s_v3"
 }
+
+variable "storage_account_name" {
+  description = "Storage account name for Terraform state and shared files"
+  type        = string
+  default     = "ecomterraformstate"
+}
+
+variable "storage_container_name" {
+  description = "Storage container name for Terraform remote state"
+  type        = string
+  default     = "tfstate"
+}
+
+variable "sql_admin_username" {
+  description = "SQL administrator login name"
+  type        = string
+  default     = "sqladminuser"
+}
+
+variable "sql_admin_password" {
+  description = "SQL administrator password"
+  type        = string
+  default     = "P@ssw0rd1234!"
+  sensitive   = true
+}
+
+variable "payment_provider_key" {
+  description = "Payment provider API key stored in Key Vault"
+  type        = string
+  default     = "REPLACE_WITH_SECURE_KEY"
+  sensitive   = true
+}
