@@ -12,9 +12,14 @@ It includes:
 ## Repository structure
 
 - `app/backend/` — Express application and Docker build artifacts
-- `infrastructure/azure/` — Terraform configuration for Azure resources
-- `k8s/` — Kubernetes manifests for deployment, service, autoscaling, ingress, and production configuration
+- `infrastructure/azure/` — Terraform configuration for Azure resources, AKS, ACR, logging, networking, and remote state
+- `k8s/` — Kubernetes manifests for deployment, services, autoscaling, ingress, security policies, and Kustomize overlays
 - `azure-pipelines.yml` — Azure DevOps pipeline
+
+## Kubernetes structure
+
+- `k8s/base/` — core production YAML manifests used for all environments
+- `k8s/overlays/production/` — production overlay with namespace and image overrides
 
 ## Quick start
 
