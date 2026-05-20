@@ -1,0 +1,17 @@
+{
+  "name": "ecommernce-backend",
+  "version": "1.0.0",
+  "description": "Production-ready e-commerce sample backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "npx eslint .",
+    "test": "echo \"No tests configured. Add your test suite here.\" && exit 0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  }
+}

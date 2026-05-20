@@ -1,0 +1,23 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Premium Headphones",
+    "description": "Noise-cancelling headphones with immersive sound.",
+    "price": 149.99,
+    "inventory": 250
+  },
+  {
+    "id": "prod-002",
+    "name": "Smart Watch",
+    "description": "Fitness tracking, notifications, and long battery life.",
+    "price": 199.99,
+    "inventory": 390
+  },
+  {
+    "id": "prod-003",
+    "name": "Wireless Charger",
+    "description": "Fast charging pad for Qi-enabled devices.",
+    "price": 39.99,
+    "inventory": 620
+  }
+]

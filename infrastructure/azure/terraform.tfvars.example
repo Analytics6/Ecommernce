@@ -1,0 +1,10 @@
+location = "eastus"
+prefix = "ecom"
+resource_group_name = "ecom-rg"
+aks_cluster_name = "ecom-aks"
+acr_name = "ecomregistry"
+node_count = 3
+min_count = 3
+max_count = 8
+vm_size = "Standard_D4s_v3"
+ssh_public_key = "ssh-rsa AAAA..."

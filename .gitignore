@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+.env
+.DS_Store
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Docker
+docker-compose.override.yml
+
+# Azure
+azure-pipelines.yml
